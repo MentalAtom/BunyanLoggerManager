@@ -1,5 +1,5 @@
 # Buyan Logger Manager
-#### Express middleware to update the log level of your Bunyan loggers over REST
+#### Express middleware to update the log level of your [Bunyan](https://github.com/trentm/node-bunyan) loggers over REST
 
 **Example usage:**  
 Include the module in your server.js and add it as middleware, passing in the loggers  

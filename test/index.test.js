@@ -158,7 +158,7 @@ describe('When no loggers are given, the logger', function () {
   before(function (done) {
     this.app = express()
     this.app.use(bodyParser.json())
-    this.app.use('/log-level', manageBunyanLoggers())
+    this.app.use('/log-level', bunyanLoggerManager())
     this.server = this.app.listen(3000, '0.0.0.0')
     done()
   })
@@ -195,7 +195,7 @@ describe('When no loggers are given, the logger', function () {
 describe('When bodyParser is not set up as middleware', function () {
   before(function (done) {
     this.app = express()
-    this.app.use('/log-level', manageBunyanLoggers())
+    this.app.use('/log-level', bunyanLoggerManager())
     this.server = this.app.listen(3000, '0.0.0.0')
     done()
   })
