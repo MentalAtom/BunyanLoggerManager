@@ -1,0 +1,25 @@
+{
+  "name": "bunyan-logger-manager",
+  "version": "0.0.1",
+  "description": "Express middleware to manage bunyan logger instances within an app via REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "bunyan",
+    "log",
+    "express",
+    "middleware"
+  ],
+  "author": "Matt Malone <Matt.malone@argos.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "bunyan": "^1.7.1",
+    "express": "^4.13.4",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "request": "^2.69.0"
+  }
+}
