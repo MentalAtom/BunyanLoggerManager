@@ -1,6 +1,9 @@
 # Buyan Logger Manager
 #### Express middleware to update the log level of your [Bunyan](https://github.com/trentm/node-bunyan) loggers over REST
 
+[![npm version](https://badge.fury.io/js/bunyan-logger-manager.svg)](https://badge.fury.io/js/bunyan-logger-manager)
+[![npm](https://img.shields.io/npm/dm/bunyan-logger-manager.svg)](https://www.npmjs.com/package/bunyan-logger-manager)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 ```
 npm install bunyan-logger-manager
 ```
