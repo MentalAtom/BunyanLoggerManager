@@ -1,6 +1,6 @@
 {
   "name": "bunyan-logger-manager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express middleware to manage bunyan logger instances within an app via REST",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/MentalAtom/BunyanLoggerManager/issues"
   },
   "author": "Matt Malone <Matt.malone@argos.co.uk>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.15.0",
     "bunyan": "^1.7.1",
