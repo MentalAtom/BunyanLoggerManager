@@ -45,7 +45,7 @@ const middleware = (loggers) => {
   try {
     require.resolve('body-parser')
   } catch (e) {
-    throw new Error('body-parser is not installed, run \'npm install body-parser\' and add the bodyParser.json() middleware for BuyanLoggerManager to work')
+    throw new Error('body-parser is not installed, run \'npm install body-parser\' and add the bodyParser.json() middleware for BunyanLoggerManager to work')
   }
 
   return (req, res, next) => {
@@ -60,7 +60,7 @@ const middleware = (loggers) => {
 
         // If there is no request body, throw 400
         if (!req.body || !req.body.forEach) {
-          console.warn('BuyanLoggerManager: No request body - If your request body was not empty, you are missing the bodyParser.json() middleware')
+          console.warn('BunyanLoggerManager: No request body - If your request body was not empty, you are missing the bodyParser.json() middleware')
           res.status(400)
           res.end()
           return
