@@ -4,6 +4,8 @@
 [![npm version](https://badge.fury.io/js/bunyan-logger-manager.svg)](https://badge.fury.io/js/bunyan-logger-manager)
 [![npm](https://img.shields.io/npm/dm/bunyan-logger-manager.svg)](https://www.npmjs.com/package/bunyan-logger-manager)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Coverage Status](https://coveralls.io/repos/github/MentalAtom/BunyanLoggerManager/badge.svg?branch=master)](https://coveralls.io/github/MentalAtom/BunyanLoggerManager?branch=master)
+[![Build Status](https://travis-ci.org/MentalAtom/BunyanLoggerManager.svg?branch=master)](https://travis-ci.org/MentalAtom/BunyanLoggerManager)
 ```
 npm install bunyan-logger-manager
 ```
